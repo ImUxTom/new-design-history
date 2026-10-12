@@ -1,0 +1,28 @@
+@use "pkg:govuk-frontend/dist/govuk" as govuk;
+
+// Show images side by side on tablet and up, stacked on mobile
+.app-image-row,
+.app-image-row > p {
+  @include govuk.govuk-media-query($from: tablet) {
+    display: flex;
+    gap: govuk.govuk-spacing(4);
+    align-items: flex-start;
+  }
+}
+
+.app-image-row img {
+  display: block;
+  max-width: 100%;
+  min-width: 0;
+
+  @include govuk.govuk-media-query($from: tablet) {
+    flex: 1;
+  }
+}
+
+// Markdown adds line breaks between images on separate lines
+.app-image-row br {
+  @include govuk.govuk-media-query($from: tablet) {
+    display: none;
+  }
+}
