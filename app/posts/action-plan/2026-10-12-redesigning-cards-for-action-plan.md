@@ -96,7 +96,17 @@ The redesign included a note saying users needed to be able to mark a chaser tas
 - if no date is set, the row shows "Change"
 - if a date is set, the row shows "Mark as complete"
 
-## What we found
+<!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
+<div class="app-image-row">
+
+![A summary card component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/reason-show-more.jpg)
+![A summary list component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/reason-show-less.jpg)
+
+</div>
+
+*Caption: A show more toggle to handle long blocks of text*
+
+## Action card statuses
 
 Initially, we thought action buttons might depend on the category: police initiated, pre-charge or post-charge.
 
