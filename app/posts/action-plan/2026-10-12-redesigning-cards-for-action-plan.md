@@ -80,14 +80,14 @@ The lesson: check what a standard component can and can't do before you commit t
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
 <div class="app-image-row">
 
-![A summary card component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/chaser-task-none.jpg)
-![A summary list component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/chaser-task-mark-complete.jpg)
+![A summary card component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/reason-show-more.jpg)
+![A summary list component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/reason-show-less.jpg)
 
 </div>
 
-*Caption: The new chaser task row showing both states*
+*Caption: A show more toggle to handle long blocks of text*
 
-<!-- END PLACEHOLDER -->
+
 
 ### Adding a chaser task
 
@@ -99,12 +99,14 @@ The redesign included a note saying users needed to be able to mark a chaser tas
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
 <div class="app-image-row">
 
-![A summary card component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/reason-show-more.jpg)
-![A summary list component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/reason-show-less.jpg)
+![A summary card component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/chaser-task-none.jpg)
+![A summary list component from the gov.uk design system](/action-plan/redesigning-cards-for-action-plan/chaser-task-mark-complete.jpg)
 
 </div>
 
-*Caption: A show more toggle to handle long blocks of text*
+*Caption: The new chaser task row showing both states*
+
+<!-- END PLACEHOLDER -->
 
 ## Action card statuses
 
