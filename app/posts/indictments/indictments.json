@@ -1,0 +1,12 @@
+{
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
+  "tags": ["indictments"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent": "indictments",
+       "key": "{{ page.fileSlug }}",
+      "excerpt": "{{ description }}"
+    }
+  }
+}
