@@ -59,11 +59,10 @@ Instead, there's one journey for everyone who handles appeals. OD managers, Char
 5. "Continue to case review" hands over to the case review journey, which another team owns. Completing that review completes the task.
 
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
-![Screenshot described under image](mvp-flow.png)
+![The MVP task list to new View appeal details action](/pcd-appeal-review/designing-pcd-appeal-review-tasks/task-list.jpg)
 
-*Caption: The MVP journey from task list to case review*
+*Caption: The MVP task list to new View appeal details action button*
 
-Describe the screenshot here. Include the page heading, what each section contains, and what the buttons and links say.
 <!-- END PLACEHOLDER -->
 
 ## What we changed and why
@@ -81,7 +80,7 @@ The reason shows its first 35 words, with "See more" to expand it. This keeps th
 We first tried an [accordion](https://design-system.service.gov.uk/components/accordion/) holding all the appeal, charging and review details. We dropped it because the overview only needs a snapshot. The full details are one click away.
 
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
-![Screenshot described under image](case-overview-appeal-card.png)
+![PCD appeal card on the case overview](/pcd-appeal-review/designing-pcd-appeal-review-tasks/snapshot.jpg)
 
 *Caption: The PCD appeal card on the case overview*
 
@@ -95,7 +94,7 @@ The appeal page uses a [notification banner](https://design-system.service.gov.u
 We also tried [inset text](https://design-system.service.gov.uk/components/inset-text/) next to the button, but chose the banner because it's more noticeable. A "Continue to case review" button at the bottom of the page replaces a link that participants missed.
 
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
-![Screenshot described under image](appeal-reactivated-banner.png)
+![The appeal page with the reactivation banner](/pcd-appeal-review/designing-pcd-appeal-review-tasks/banner.jpg)
 
 *Caption: The appeal page with the reactivation banner*
 
