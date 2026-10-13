@@ -10,7 +10,7 @@ A design review recognised the current design as not meeting the service standar
 
 We rebuilt the action plan cards using proper GOV.UK components to fix accessibility problems, and found that each card’s actions depend on its status, not its category.
 
-This wasn’t a research-led piece of work. We started with a design review and new design with input and support from subject matter experts (SME)
+This wasn’t a research-led piece of work. We started with a design review and created the new design with input and support from subject matter experts (SME)
 
 ## Why we did this work
 
@@ -19,8 +19,6 @@ The old design had some problems:
 - it wasn’t built on real component or patterns, so it missed the accessibility features GOV.UK components provide, such as semantic structure and consistent keyboard and focus behaviour
 - button labels were inconsistent, and it wasn’t clear which buttons applied to the whole action and which applied to a single piece of information
 - we didn’t know whether different categories of action (police initiated, pre-charge and post-charge) needed different information or actions
-
-An accessibility specialist reviewed the new rationale before we started and was comfortable it was an improvement on the current version.
 
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
 <div class="app-image-row">
@@ -42,6 +40,8 @@ An accessibility specialist reviewed the new rationale before we started and was
 We rebuilt each action as a [summary card](https://design-system.service.gov.uk/components/summary-list/#summary-cards). The card has a title, actions in its header, and a summary list of details.
 
 We also built a second version using a plain [summary list](https://design-system.service.gov.uk/components/summary-list/), without the card styling. Looking ahead, we could test the two variants with real users. Both versions are available in the prototype.
+
+An accessibility colleague reviewed the our design proposal before we started making the changes and was comfortable it was an improvement on the current version.
 
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
 <div class="app-image-row">
@@ -73,9 +73,8 @@ The subject matter expert confirmed that the message to mark as read is the reas
 
 The reason for last CPS update can be very long. We now show only the first few words, followed by a "Show more" button. When the text is opened, the full message is shown with a "Show less" button at the end.
 
-We first tried the [details component](https://design-system.service.gov.uk/components/details/). It couldn't do what the design needed, because its toggle always sits before the content and can't move to the end of the text. Instead, we used a simple button that tells screen readers whether the text is expanded.
+We first tried the [details component](https://design-system.service.gov.uk/components/details/) from the design system. It couldn't do what the design needed, because its toggle always sits before the content and can't move to the end of the text. Instead, we used a simple button that tells screen readers whether the text is expanded.
 
-The lesson: check what a standard component can and can't do before you commit to it.
 
 <!-- SCREENSHOT PLACEHOLDER — duplicate as needed -->
 <div class="app-image-row">
@@ -136,7 +135,7 @@ The same status always gets the same actions, whichever card it's on.
 
 <!-- END PLACEHOLDER -->
 
-## What we have not resolved yet
+## Next steps
 
 - **This prototype focused on consistent patterns and components.** None of the actions are connected to real data yet, so we've confirmed how the cards look but not how their ongoing journeys resolve.
 
