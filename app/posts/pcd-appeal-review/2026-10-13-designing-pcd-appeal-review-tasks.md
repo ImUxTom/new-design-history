@@ -1,5 +1,5 @@
 ---
-title: Designing PCD Appeal review emails for the task list
+title: Designing a PCD appeal review task
 description: How we designed an MVP task-based journey, informed by research for reviewing police appeals against charging decisions.
 date: 2026-10-13
 ---
